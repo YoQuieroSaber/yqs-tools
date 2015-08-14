@@ -1,0 +1,6 @@
+[program:auto]
+command=python /full/path/to/autodeploy/GitAutoDeploy.py
+directory=/full/path/to/autodeploy
+user=username
+chown=username:group
+chmod=0660

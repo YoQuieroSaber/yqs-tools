@@ -1,0 +1,5 @@
+[program:vota]
+command=uwsgi --ini /full/path/to/votainteligente-portal-electoral/votainteligente/wsgi.ini
+user=username
+chown=username:group
+chmod=0660
